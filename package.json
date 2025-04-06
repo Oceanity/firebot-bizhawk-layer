@@ -1,8 +1,8 @@
 {
-  "name": "firebot-custom-script-starter",
-  "scriptOutputName": "starterScript",
+  "name": "oceanity-bizhawk-compatibility-layer",
+  "scriptOutputName": "oceanityBizhawkCompatibilityLayer",
   "version": "1.0.0",
-  "description": "A starter Firebot custom script",
+  "description": "Registers an endpoint that properly forwards Bizhawk POST requests",
   "main": "",
   "scripts": {
     "build": "webpack",
