@@ -10,11 +10,12 @@ This script was created to allow Bizhawk Lua scripts to send `POST` requests to 
 
 This script adds a new endpoint to Firebot, `/integrations/oceanity/bizhawk` that takes `POST` requests with a payload like this (needs to be string encoded in Lua script):
 
-```json
+```jsonc 
 {
-  "url": "/api/v1/counters/my-counter-id-here" /* whatever Firebot endpoint you want to pass through too */,
+  // Whatever Firebot endpoint you want to pass through too
+  "url": "/api/v1/counters/my-counter-id-here",
+  // Your Request Body
   "data": {
-    /* your request body */
     "value": 1
   }
 }
