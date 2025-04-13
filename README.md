@@ -12,9 +12,9 @@ This script adds a new endpoint to Firebot, `/integrations/oceanity/bizhawk` tha
 
 ```json
 {
-  "url": "/api/v1/counters/my-counter-id-here", // whatever Firebot endpoint you want to pass through too
+  "url": "/api/v1/counters/my-counter-id-here" /* whatever Firebot endpoint you want to pass through too */,
   "data": {
-    // your request JSON
+    /* your request body */
     "value": 1
   }
 }
